@@ -35,7 +35,7 @@ import javax.crypto.spec.GCMParameterSpec;
 
 public class AESGCMBench extends BenchBase {
 
-    @Param({"128", "192", "256"})
+    @Param({"128"})
     int keyLength;
 
     public static final int IV_MODULO = 16;
